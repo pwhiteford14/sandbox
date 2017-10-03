@@ -26,14 +26,17 @@ text-wrap: normal;}
     width: 5%;
     padding-right: 2px;
 #xerxes {
-    float: left;
+    float: right;
     display: block; width: 100%;
     float: none; margin: 1rem 0;
 }
 
-
-
 #thing {
  width: 100000px;
     align-items: center;
+}
+
+h3 {
+font-size: small;
+    padding-left: 4%;
 }
