@@ -13,6 +13,9 @@ main{
 
 .pics , p {
     padding: .5%;
+
+    max-width: 100%;
+    height: auto;
 }
 #compare-img {
     float:right;
@@ -46,8 +49,5 @@ main{
     top:100%%;
 }
 
-#cliff{
-    max-width: 100%;
- padding-left: 20%;
-    width: 100%;
+
 }
