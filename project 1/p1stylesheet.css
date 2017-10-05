@@ -28,15 +28,26 @@ text-wrap: normal;}
 #xerxes {
     float: right;
     display: block; width: 100%;
+    max-width: 100%;
     float: none; margin: 1rem 0;
 }
 
 #thing {
- width: 100000px;
+ width: 100%;
+    max-width: 100%;
     align-items: center;
 }
 
 h3 {
 font-size: small;
     padding-left: 4%;
+}
+
+br{
+    width:100%;
+    padding-top: 20%;
+    background-image: url(images/cliff.jpg);
+    background-size: contain;
+    background-color: #000; color: #f00;
+    background-repeat: no-repeat;
 }
